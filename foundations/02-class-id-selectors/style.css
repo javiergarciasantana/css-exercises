@@ -1,0 +1,20 @@
+.odd {
+  font-family: Verdana, "DejaVu Sans", sans-serif; /*if space, then put quotation marks*/
+  background-color: lightpink;
+}
+
+.odd.coolerclass {
+  font-size: 24px;
+}
+
+#number2 {
+  font-size: 36px;
+  color: blue;
+}
+
+#number4 {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+
