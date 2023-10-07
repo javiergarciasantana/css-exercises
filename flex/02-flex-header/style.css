@@ -9,6 +9,8 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* align-items: center; */
+
 }
 
 ul {
@@ -16,10 +18,25 @@ ul {
   list-style-type: none;
 }
 
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
 }
